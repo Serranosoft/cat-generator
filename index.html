@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Regala un gatito</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='global.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Regala un gatito</h1>
+        <p>Desarrollado por <a target="_blank" href="https://manu-scholz.com">Manuel Scholz</a></p>
+    </header>
+
+    <section id="container">
+        <div class="wrapper">
+            <div class="options-wrapper">
+                <div class="effect-option">
+                    <label>Elige un efecto</label>
+                    <select id="effect-option" name="effects" autocomplete="off">
+                        <option value="1" selected>Sin efectos</option>
+                        <option value="2">sepia</option>
+                        <option value="3">blur</option>
+                        <option value="4">mono</option>
+                        <option value="5">negative</option>
+                        <option value="6">paint</option>
+                        <option value="7">pixel</option>
+                    </select>
+                </div>
+                <div class="size-option">
+                    <label>Elige tamaño de texto</label>
+                    <select id="size-option" name="effects" autocomplete="off">
+                        <option value="1" selected>150</option>
+                        <option value="2">100</option>
+                        <option value="3">80</option>
+                        <option value="4">50</option>
+                        <option value="5">20</option>
+                    </select>
+                </div>
+                <div class="text-option">
+                    <label>Introduce tu texto</label>
+                    <input id="cat-text" type="text" placeholder="Te odio">
+                </div>
+                <button id="generate-img">Crear gatito</button>
+            </div>
+            <div class="image-wrapper">
+                <img id="img-generated" src="#">
+                <a id="downloadImg" target="_blank" href="..." download>Descargar</a>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+</body>
+<script src='src/main.js'></script>
+
+</html>
